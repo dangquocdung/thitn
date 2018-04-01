@@ -1,5 +1,5 @@
 @extends('layouts.admin', [
-  'page_header' => 'My Reports By Topic Wise',
+  'page_header' => 'Tổng quan',
   'dash' => '',
   'quiz' => '',
   'users' => '',

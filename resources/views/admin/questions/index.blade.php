@@ -22,10 +22,10 @@
             <div class="row">
               <div class="col-xs-6 pad-0">
                 <ul class="topic-detail">
-                  <li>Per Question Mark <i class="fa fa-long-arrow-right"></i></li>
-                  <li>Total Marks <i class="fa fa-long-arrow-right"></i></li>
-                  <li>Total Questions <i class="fa fa-long-arrow-right"></i></li>
-                  <li>Time <i class="fa fa-long-arrow-right"></i></li>
+                  <li>{{ trans('backLang.PerQuestionMark') }} <i class="fa fa-long-arrow-right"></i></li>
+                  <li>{{ trans('backLang.TotalMarks') }} <i class="fa fa-long-arrow-right"></i></li>
+                  <li>{{ trans('backLang.TotalQuestions') }} <i class="fa fa-long-arrow-right"></i></li>
+                  <li>{{ trans('backLang.Time') }} <i class="fa fa-long-arrow-right"></i></li>
                 </ul>
               </div>
               <div class="col-xs-6">

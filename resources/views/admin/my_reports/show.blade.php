@@ -1,5 +1,5 @@
 @extends('layouts.admin', [
-  'page_header' => "My Report / {$topic->title}",
+  'page_header' => "Báo cáo / {$topic->title}",
   'dash' => '',
   'users' => '',
   'questions' => '',
@@ -16,12 +16,12 @@
         <thead class="info">
           <tr>
             <th>#</th>
-            <th>Question</th>
-            <th>Correct Answer</th>
-            <th>My Answer</th>
-            <th>Answer Explanation</th>
-            <th>Marks</th>
-            <th>Total Marks</th>
+            <th>{{ trans('backLang.Question') }}</th>
+            <th>{{ trans('backLang.CorrectAnswer') }}</th>
+            <th>{{ trans('backLang.MyAnswer') }}</th>
+            <th>{{ trans('backLang.AnswerExplanation') }}</th>
+            <th>{{ trans('backLang.Marks') }}</th>
+            <th>T{{ trans('backLang.TotalMarks') }}</th>
           </tr>
         </thead>
         <tbody>

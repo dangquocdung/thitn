@@ -51,15 +51,15 @@
                     </a>
                     <ul class="dropdown-menu">
                       @if ($auth->role === 'A')
-                        <li><a href="{{url('/admin')}}">Dashboard</a></li>
+                        <li><a href="{{url('/admin')}}">{{ trans('backLang.Dashboard') }}</a></li>
                       @elseif ($auth->role === 'S')
-                        <li><a href="{{url('/admin/my_reports')}}">Dashboard</a></li>
+                        <li><a href="{{url('/admin/my_reports')}}">{{ trans('backLang.Dashboard') }}</a></li>
                       @endif
                       <li>
                         <a href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
-                        Logout
+                        {{ trans('backLang.logout') }}
                       </a>
                       <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         {{ csrf_field() }}
@@ -92,10 +92,10 @@
                     <div class="row">
                       <div class="col-xs-6 pad-0">
                         <ul class="topic-detail">
-                          <li>Per Question Mark <i class="fa fa-long-arrow-right"></i></li>
-                          <li>Total Marks <i class="fa fa-long-arrow-right"></i></li>
-                          <li>Total Questions <i class="fa fa-long-arrow-right"></i></li>
-                          <li>Time <i class="fa fa-long-arrow-right"></i></li>
+                          <li>{{ trans('backLang.PerQuestionMark') }} <i class="fa fa-long-arrow-right"></i></li>
+                          <li>{{ trans('backLang.TotalMarks') }} <i class="fa fa-long-arrow-right"></i></li>
+                          <li>{{ trans('backLang.TotalQuestions') }} <i class="fa fa-long-arrow-right"></i></li>
+                          <li>{{ trans('backLang.Time') }} <i class="fa fa-long-arrow-right"></i></li>
                         </ul>
                       </div>
                       <div class="col-xs-6">
@@ -125,7 +125,7 @@
                     </div>
                   </div>
                   <div class="card-action">
-                    <a href="{{route('start_quiz', ['id' => $topic->id])}}" class="btn btn-block">Start Quiz</a>
+                    <a href="{{route('start_quiz', ['id' => $topic->id])}}" class="btn btn-block">{{ trans('backLang.StartQuiz') }}</a>
                   </div>
                 </div>
               </div>

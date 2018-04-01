@@ -23,7 +23,7 @@ return array (
     'Actions' => 'Thao tác',
     'EditUser' => 'Chỉnh sửa thông tin thí sinh',
     'CreateUser' => 'Tạo thí sinh',
-    'Dashboard' => 'Thông tin tổng quan',
+    'Dashboard' => 'Quản trị',
     'Quiz' => 'Đề thi',
     'QuizName' => 'Đề thi',
     'AllStudents' => 'Thí Sinh',

@@ -95,7 +95,7 @@
                           <li>{{ trans('backLang.PerQuestionMark') }} <i class="fa fa-long-arrow-right"></i></li>
                           <li>{{ trans('backLang.TotalMarks') }} <i class="fa fa-long-arrow-right"></i></li>
                           <li>{{ trans('backLang.TotalQuestions') }} <i class="fa fa-long-arrow-right"></i></li>
-                          <li>{{ trans('backLang.Time') }} <i class="fa fa-long-arrow-right"></i></li>
+                          <li>{{ trans('backLang.QuizTime') }} <i class="fa fa-long-arrow-right"></i></li>
                         </ul>
                       </div>
                       <div class="col-xs-6">
@@ -118,7 +118,7 @@
                             {{$qu_count}}
                           </li>
                           <li>
-                            {{$topic->timer}} minutes
+                            {{$topic->timer}} {{ trans('backLang.minutes') }}
                           </li>
                         </ul>
                       </div>

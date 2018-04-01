@@ -16,12 +16,12 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>Student Name</th>
-            <th>Mobile</th>
-            <th>School</th>
-            <th>Topic</th>
-            <th>Marks</th>
-            <th>Total Marks</th>
+            <th>{{ trans('backLang.StudentName') }}</th>
+            <th>{{ trans('backLang.Mobile') }}</th>
+            <th>{{ trans('backLang.City') }}</th>
+            <th>{{ trans('backLang.Topic') }}</th>
+            <th>{{ trans('backLang.Marks') }}</th>
+            <th>{{ trans('backLang.TotalMarks') }}</th>
           </tr>
         </thead>
         <tbody>
@@ -33,7 +33,7 @@
                 </td>
                 <td>{{$student->name}}</td>
                 <td>{{$student->mobile}}</td>
-                <td>{{$student->school}}</td>
+                <td>{{$student->city}}</td>
                 <td>{{$topic->title}}</td>
                 <td>
                   @php

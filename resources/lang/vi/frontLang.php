@@ -6,7 +6,7 @@ return array (
     'register' => 'Đăng kí',
     'rememberme' => 'Nhớ tôi',
     'notregister' => 'Nếu chưa có tài khoản?',
-    'createdaccount' => 'Hãy khởi tạo.',
+    'createdaccount' => 'Hãy khởi tạo',
     'AlreadyHaveAccount' => 'Đã có tài khoản?',
   'dashboard' => 'Quản trị',
   'toTop' => 'Lên đầu trang',

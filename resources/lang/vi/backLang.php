@@ -44,7 +44,7 @@ return array (
     'StartQuiz' => 'Bắt đầu thi',
     'Topic' => 'Đề thi',
     'Marks' => 'Điểm',
-    '' => '',
+    'MyMarks' => 'Điểm',
     '' => '',
     '' => '',
     '' => '',

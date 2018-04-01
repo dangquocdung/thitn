@@ -87,14 +87,14 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="home-main-block">
           <div class="question-block">
-            <h2 class="text-center main-block-heading">{{$topic->title}} Result</h2>
+            <h2 class="text-center main-block-heading">{{$topic->title}}</h2>
             <table class="table table-bordered result-table">
               <thead>
                 <tr>
-                  <th>Total Questions</th>
-                  <th>My Marks</th>
-                  <th>Per Question Mark</th>
-                  <th>Total Marks</th>
+                  <th>{{ trans('backLang.TotalQuestions') }}</th>
+                  <th>{{ trans('backLang.MyMarks') }}</th>
+                  <th>{{ trans('backLang.PerQuestionMark') }}</th>
+                  <th>{{ trans('backLang.TotalMarks') }}</th>
                 </tr>
               </thead>
               <tbody>
@@ -124,7 +124,7 @@
                 </tr>
               </tbody>
             </table>
-            <h2 class="text-center">Thank You!</h2>
+            <h2 class="text-center">Xin cảm ơn!</h2>
           </div>
         </div>
       </div>

@@ -562,4 +562,9 @@ return array (
   'usersBackup' => 'Sao lưu & Khôi phục',
   'curlBHT' => 'Tải dữ liệu',
   'bannerLinkUrl' => 'Đường dẫn banner',
+  'Question' => 'Câu hỏi',
+  'CorrectAnswer' => 'Câu trả lời đúng',
+  'MyAnswer' => 'Câu trả lời đã chọn',
+  'AnswerExplanation' => 'Giải thích câu trả lời',
+  
 );

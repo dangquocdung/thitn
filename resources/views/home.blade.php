@@ -135,19 +135,5 @@
       </div>
     </div>
   @endif
-  @if (!$auth)
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="home-main-block">
-              @if ($setting)
-                {{--  <h1 class="main-block-heading text-center">{{$setting->welcome_txt}}</h1>  --}}
-              @endif
-                <blockquote>
-                  {{ trans('frontLang.PleaseLoginToStartQuiz') }} >>>
-                </blockquote>
-            </div>
-        </div>
-    </div>
-  @endif
 </div>
 @endsection
